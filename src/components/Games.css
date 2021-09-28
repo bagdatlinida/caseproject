@@ -1,4 +1,8 @@
 .gameClass{
-    color: gray;
-
+    background-color:gray;
 }
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }

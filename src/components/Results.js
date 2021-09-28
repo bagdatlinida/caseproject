@@ -1,16 +1,39 @@
-import React from 'react'
-import Carousels from './Carousels'
+import React,{useState,useEffect} from 'react'
 import Header from "./Header"
-import Games from "./Games"
 
-function Base() {
+
+
+
+function Games() {
+    const [users, setUsers] = useState([])
+
+    useEffect(() => {
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(response => response.json())
+            .then(data =>setUsers(data));
+
+    }, [])
+    console.log(users)
+
     return (
-        <div>
-            <Header/>
-            <Carousels/>
-            
+        <div className='He'>
+        <Header/>
+             <div>
+{
+  
+    users.map((user=>{
+        return(
+            <div>
+                {user.username}
+            </div>
+        )
+    }))
+}
+            </div>
         </div>
     )
+
 }
 
-export default Base
+export default Games
+

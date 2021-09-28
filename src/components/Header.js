@@ -23,12 +23,12 @@ function Header() {
 
         <Menu.Item
         name='Games'>
-        <Link to="/games">Games</Link>
+        <Link to="/games">Exchange Rates</Link>
        </Menu.Item>
 
         <Menu.Item
         name='Game Results'>
-        <Link to="/results">Game Results</Link>
+        <Link to="/results">Exchange Calculator</Link>
         </Menu.Item>
 
         </Menu>
