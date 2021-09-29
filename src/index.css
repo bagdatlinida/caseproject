@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.skill-img{
+  width:50% !important;
+  margin-top:2em;
+}
+
+.carousel-inner{
+  height:25em !important;
+}
+
+.custom-footer{
+  bottom:0;
+  position:absolute;
+  width:100%;
+  background-color:red !important; 
+}

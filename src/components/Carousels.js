@@ -3,6 +3,7 @@ import {Carousel} from "react-bootstrap"
 import Basketball from '../assets/Basketball.png'
 import Futbol from '../assets/Futbol.png'
 import Weather from '../assets/Weather.png'
+import test from '../assets/test.png'
 
 function Carousels() {
     return (
@@ -11,7 +12,7 @@ function Carousels() {
   <Carousel.Item >
     <img
       className="d-block w-100"
-      src={Basketball}
+      src={test}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -22,7 +23,7 @@ function Carousels() {
   <Carousel.Item >
     <img
       className="d-block w-100"
-      src={Futbol}
+      src="https://www.turizmgunlugu.com/wp-content/uploads/2021/08/malatya-Tohma-Kanyonu-696x418.jpg"
       alt="Second slide"
     />
 
@@ -45,6 +46,7 @@ function Carousels() {
   </Carousel.Item>
 </Carousel>
         </div>
+
     )
 }
 

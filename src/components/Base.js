@@ -1,7 +1,9 @@
 import React from 'react'
 import Carousels from './Carousels'
+import Footer from "./Footer"
 import Header from "./Header"
 import Games from "./Games"
+import GridExampleRelaxed from "./GridExampleRelaxed"
 
 
 function Base() {
@@ -9,7 +11,9 @@ function Base() {
         <div>
             <Header/>
             <Carousels/>
-            
+            <GridExampleRelaxed/>
+            <br />
+            <Footer />
             
         </div>
     )
